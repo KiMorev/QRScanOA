@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тема для SplashScreen -->
+    <style name="Theme.QrScanoa.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
+        <item name="postSplashScreenTheme">@style/Theme.QrScanoa</item>
+    </style>
+
+    <!-- Главная тема приложения
+         parent теперь — MaterialComponents, а не Material3 -->
+    <style name="Theme.QrScanoa" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- здесь ваши цвета, типографика и т.д. -->
+        <item name="colorPrimary">@color/your_primary</item>
+        <item name="colorOnPrimary">@color/your_on_primary</item>
+        <!-- ... -->
+    </style>
+</resources>
