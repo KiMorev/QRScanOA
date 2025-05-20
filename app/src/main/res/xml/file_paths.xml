@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Из папки cacheDir -->
+    <cache-path name="cache_files" path="." />
+    <!-- (Если ещё нужно) из внешнего хранилища -->
+    <external-path name="external_files" path="." />
+</paths>
+
